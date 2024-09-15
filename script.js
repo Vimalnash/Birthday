@@ -4,7 +4,7 @@ const formTimerMessage = document.createElement("form");
 document.body.append(formTimerMessage);
 
 const btnCountDown = document.createElement("button");
-btnCountDown.innerText = "Click This Button for the Surprice";
+btnCountDown.innerText = "Click This Button for the Surprise";
 btnCountDown.style.padding = "10px";
 btnCountDown.style.width = "100%";
 formTimerMessage.append(btnCountDown);
@@ -39,41 +39,3 @@ formTimerMessage.addEventListener("click", (e) => {
         i--;
     }, 1000) 
 });
-// // CallBack Hell
-
-// formTimerMessage.addEventListener("click", (e) => {
-//     e.preventDefault();
-//     setTimeout(() => {
-//         countDownTimer.innerHTML = "10";
-//         setTimeout(() => {
-//             countDownTimer.innerHTML = "9";
-//             setTimeout(() => {
-//                 countDownTimer.innerHTML = "8";
-//                 setTimeout(() => {
-//                     countDownTimer.innerHTML = "7";
-//                     setTimeout(() => {
-//                         countDownTimer.innerHTML = "6";
-//                         setTimeout(() => {
-//                             countDownTimer.innerHTML = "5";
-//                             setTimeout(() => {
-//                                 countDownTimer.innerHTML = "4";
-//                                 setTimeout(() => {
-//                                     countDownTimer.innerHTML = "3";
-//                                     setTimeout(() => {
-//                                         countDownTimer.innerHTML = "2";
-//                                         setTimeout(() => {
-//                                             countDownTimer.innerHTML = "1";
-//                                             setTimeout(() => {
-//                                                 countDownTimer.innerHTML = "HAPPY INDEPENDENCE DAY";
-//                                             }, 1000);
-//                                         }, 1000);
-//                                     }, 1000);
-//                                 }, 1000);
-//                             }, 1000);
-//                         }, 1000);
-//                     }, 1000);
-//                 }, 1000);
-//             }, 1000);
-//         }, 1000);
-//     }, 1000);
-// });
