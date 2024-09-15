@@ -29,7 +29,7 @@ const countDownTimer = document.querySelector("#resultMessage");
 
 formTimerMessage.addEventListener("click", (e) => {
     e.preventDefault();
-    let i = 1;
+    let i = 10;
     const interval = setInterval(() => {
         countDownTimer.innerHTML = i;
         if (i < 0) {
