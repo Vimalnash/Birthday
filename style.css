@@ -1,0 +1,20 @@
+.hmarque {
+    animation: hmarquee 10s infinite linear;
+    text-wrap: nowrap;
+    position: relative;
+    background-color: pink;
+}
+
+@keyframes hmarquee {
+    0% {left: 100%;}
+    10% {left: 60%;}
+    20% {left: 10%;}
+    30% {left: 20%;}
+    40% {left: 20%;}
+    50% {left: 30%;}
+    60% {left: -40%;}
+    70% {left: -60%;}
+    80% {left: -80%;}
+    90% {left: -100%;}
+    100% {left: -170%;}
+}
